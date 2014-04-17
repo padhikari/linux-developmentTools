@@ -1,0 +1,38 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2014.04.17.18.46.11;	author sandesh;	state Exp;
+branches;
+next	;
+
+
+desc
+@ls
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#include <stdlib.h>
+#include <stdio.h>
+int main()
+{
+	
+	/*
+		This is an important file for managing this project.
+		It implements the canonical “Hello World” program.
+	*/
+
+	printf("Hello World\n");
+	exit(EXIT_SUCCESS);
+}
+
+@
